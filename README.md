@@ -1,24 +1,17 @@
-# README
+Doctolib
+Salut moussaillon tu vas bien?
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Dans ce README il y a un exo d'un doctolib.
 
-Things you may want to cover:
+Lancer l'appli
+Télécharge ou clone le repo
 
-* Ruby version
+Place toi dans le dossier correspondant et lance un bundle install
++ un rails db:migrate db:seed
++ rails c pour tout tester
 
-* System dependencies
+Un appointment ne peut avoir qu'un seul doctor, mais un doctor peut avoir plusieurs appointment. Un appointment ne peut avoir qu'un seul patient, mais un patient peut avoir plusieurs appointment. Enfin, un doctor peut avoir plusieurs patient, au travers des appointments, et vice versa.
 
-* Configuration
+Bon appétit!
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Bon THP à toi moussaillon!
