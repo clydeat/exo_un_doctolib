@@ -1,3 +1,5 @@
+require 'faker'
+
 Appointment.destroy_all
 Doctor.destroy_all
 Patient.destroy_all
